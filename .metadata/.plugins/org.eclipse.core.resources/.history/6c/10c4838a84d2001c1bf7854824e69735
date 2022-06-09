@@ -1,0 +1,14 @@
+package com.Application.java;
+
+import org.springframework.boot.SpringApplication;
+
+@SpringBootApplication
+
+public class SpringBootRestExampleApplicationJava {
+	public static void main(String[] args)   
+	{  
+	 SpringApplication.run(SpringBootRestExampleApplication.class, args);  
+	}  
+	}  
+
+

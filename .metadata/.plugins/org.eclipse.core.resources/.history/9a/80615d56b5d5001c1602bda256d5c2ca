@@ -1,0 +1,12 @@
+package com.Application.javaServicejava;
+
+import java.util.List;
+
+import org.springframework.boot.autoconfigure.kafka.KafkaProperties.Producer;
+
+
+public interface IProductService {
+	List<Producer> findAll();  
+}  
+
+

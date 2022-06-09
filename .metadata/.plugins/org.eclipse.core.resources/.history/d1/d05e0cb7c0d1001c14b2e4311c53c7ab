@@ -1,0 +1,24 @@
+package com.javapoint;
+
+import java.util.List;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.web.bind.annotation.GetMapping;
+import org.springframework.web.bind.annotation.RestController;
+
+@RestController
+public class productcontroller {
+	@Autowired  
+	private IProductService productService;  
+	
+	@GetMapping(value = "/product")  
+	public List<product> getProduct()   
+	{  
+	 
+	List<product> products = productService.findAll();  
+  
+	return products;  
+	}  
+	}  
+
+

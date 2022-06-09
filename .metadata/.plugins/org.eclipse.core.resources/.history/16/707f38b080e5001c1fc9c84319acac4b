@@ -1,0 +1,5 @@
+package com.repository;
+
+public class Userrepository extends CrudRepository<UserRecord, String> { {
+
+}

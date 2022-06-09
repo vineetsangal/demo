@@ -1,0 +1,11 @@
+package com.Application.javaServicejava;
+
+import java.util.List;
+
+import com.javapoint.product;
+
+public interface IProductService {
+	List<product> findAll();  
+}  
+
+

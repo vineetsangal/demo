@@ -1,0 +1,5 @@
+package com.Application.javaServicejava;
+
+public class IProductService {
+
+}
